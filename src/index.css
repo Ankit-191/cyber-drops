@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* root */
+:root {
+  --ff-lato: "Lato", sans-serif;
+  --fs-xsm: 16px;
+  --fs-sm: 18px;
+  --fs-md: 20px;
+  --fs-lg: 24px;
+  --fs-xl: 28px;
+  --fs-3xl: 36px;
+  --fs-4xl: 48px;
+  --fs-7xl: 72px;
+  --clr-white: white;
+  --clr-black: black;
+  --clr-brown: #f1ac73;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* font family */
+.ff_lato {
+  font-family: var(--ff-lato);
+}
+/* font size */
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_3xl {
+  font-size: var(--fs-3xl);
+}
+.fs_4xl {
+  font-size: var(--fs-4xl);
+}
+.fs_7xl {
+  font-size: var(--fs-7xl);
+}
+/* colors */
+.clr_white {
+  color: var(--clr-white);
+}
+.clr_black {
+  color: var(--clr-black);
+}
+.clr_brown {
+  color: var(--clr-brown);
+}
+/* background colors */
+.bg_white {
+  background-color: var(--clr-white);
+}
+.bg_black {
+  background-color: var(--clr-black);
+}
+.bg_brown {
+  background-color: var(--clr-brown);
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 28px;
+    --fs-3xl: 36px;
+    --fs-4xl: 48px;
+    --fs-7xl: 72px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-sm: 18px;
+    --fs-md: 20px;
+    --fs-lg: 24px;
+    --fs-xl: 28px;
+    --fs-3xl: 36px;
+    --fs-4xl: 48px;
+    --fs-7xl: 72px;
+  }
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 24px;
+    --fs-3xl: 32px;
+    --fs-4xl: 40px;
+    --fs-7xl: 52px;
+  }
 }
