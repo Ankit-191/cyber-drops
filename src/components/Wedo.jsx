@@ -9,7 +9,7 @@ const Wedo = () => {
       <section className="py-xl-5 py-md-5 py-4 position-relative z-1 shadow wedo_shadow">
         <Container className="py-xl-3">
           <Row className="align-items-center flex-column-reverse flex-lg-row justify-content-between">
-            <Col lg={6} md={9} className="mt-4 mt-lg-0 m-auto">
+            <Col lg={6} md={9} className="mt-4 mt-lg-0 m-auto" data-aos="fade-down-right" data-aos-duration="1500">
               <div className="wedo_grid_container">
                 <div className="wedo_grid_items wedo_grid_items1">
                   <img src={wedoall} alt="wedoall" className="w-100" />
@@ -25,7 +25,7 @@ const Wedo = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} data-aos="fade-down-left"  data-aos-duration="1500">
               <div className="ps-xl-5">
                 <h4 className="ff_lato fw-bold fs_4xl clr_white">
                   What

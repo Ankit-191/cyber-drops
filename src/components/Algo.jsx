@@ -9,7 +9,7 @@ const Algo = () => {
       <section className="py-xl-5 py-md-5 py-4 position-relative z-1 shadow algo_shadow">
         <Container className="py-xl-3">
           <Row className="align-items-center justify-content-between">
-            <Col lg={6}>
+            <Col lg={6} data-aos="fade-down-right"  data-aos-duration="1500">
               <h4 className="ff_lato fw-bold fs_4xl clr_white">
                 Our
                 <span className="clr_brown"> Algo</span>
@@ -27,7 +27,7 @@ const Algo = () => {
                 management!
               </p>
             </Col>
-            <Col lg={5} md={9} className="m-auto mt-4 mt-lg-0">
+            <Col lg={5} md={9} className="m-auto mt-4 mt-lg-0" data-aos="fade-down-left"  data-aos-duration="1500">
               <div className="grid_container">
                 <div className="grid_items grid_items1 liner_border transition">
                   <img src={yellow} alt="yellow" className="w-100 border_bg p-3"/>

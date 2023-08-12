@@ -30,7 +30,7 @@ const Work = () => {
   ];
   return (
     <>
-      <section className="py-xl-5 py-md-5 py-4">
+      <section className="py-xl-5 py-md-5 py-4 position-relative z-1 work_img">
         <Container className="py-xl-3">
           <h4 className="ff_lato fw-bold fs_4xl clr_white text-center mb-0 mb-xl-2">
             How it
@@ -46,6 +46,8 @@ const Work = () => {
                   xl={3}
                   key={card.id}
                   className="mt-3 mt-xl-0 px-2"
+                  data-aos="flip-right" 
+                  data-aos-duration="3000"
                 >
                   <div className="liner_border h-100 work_card transition">
                     <div className="h-100 text-center d-flex flex-column align-items-center border_bg px-3 pt-md-5 pt-4 pb-3 transition">

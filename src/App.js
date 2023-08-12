@@ -14,21 +14,27 @@ import Footer from "./components/Footer";
 import Roadmap from "./components/Roadmap";
 import Preloder from "./components/Preloder";
 import Backtotop from "./components/Backtotop";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    AOS.init({ once: true, disable: "mobile" });
+  }, []);
   return (
-    <div className="bg_black">
+    <div className="bg_black overflow-hidden">
       <Hero />
-      <Mission/>
-      <Partners/>
-      <Algo/>
-      <Wedo/>
-      <Work/>
-      <Team/>
-      <Roadmap/>
-      <Faqs/>
-      <Footer/>
-      {/* <Preloder/> */}
-      {/* <Backtotop/> */}
+      <Mission />
+      <Partners />
+      <Algo />
+      <Wedo />
+      <Work />
+      <Team />
+      <Roadmap />
+      <Faqs />
+      <Footer />
+      <Preloder/>
+      <Backtotop/>
     </div>
   );
 }

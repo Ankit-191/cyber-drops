@@ -120,6 +120,31 @@
   right: 0;
   transform: translateY(-50%);
 }
+.work_img::after {
+  content: url(./assets/image/png/overflowimg1.png);
+  position: absolute;
+  right: 0;
+  top: -30%;
+}
+.work_img::before {
+  content: url(./assets/image/png/overflowimg2.png);
+  position: absolute;
+  left: 0;
+  bottom: -40%;
+}
+.roadmap_img::after {
+  content: url(./assets/image/png/overflowimg2.png);
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+.roadmap_img::before {
+  content: url(./assets/image/png/overflowimg1.png);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
 /* Navbar start */
 .nav_hvoer a:hover {
   color: var(--clr-brown);
@@ -575,6 +600,12 @@
   }
   .partner_width {
     width: 85px !important;
+  }
+  .work_img::after,
+  .work_img::before,
+  .roadmap_img::before,
+  .roadmap_img::after {
+    display: none;
   }
 }
 @media (max-width: 576px) {

@@ -23,7 +23,7 @@ const Partners = () => {
   };
   return (
     <>
-      <section className="py-md-5 py-4 my-xl-5 position-relative z-1 shadow partners_shadow" id="partnerssection">
+      <section className="py-md-5 py-4 my-xl-5 position-relative z-1 shadow partners_shadow" id="partnerssection"  data-aos-duration="1500" data-aos="zoom-out">
         <h4 className="ff_lato fw-bold fs_4xl clr_white text-center mb-0">
           Part<span className="clr_brown">ners</span>
         </h4>

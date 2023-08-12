@@ -8,10 +8,20 @@ const Mission = () => {
       <section className="py-4 py-md-5 pt-xl-0 pb-xl-5 position-relative mission_shadow shadow z-1">
         <Container className="pb-xl-5">
           <Row className="align-items-center position-relative flex-column-reverse flex-lg-row justify-content-between">
-            <Col lg={6} className="text-center text-lg-start mt-lg-0 mt-sm-4 mt-3">
-              <img src={mission} alt="mission" width={375} className="heroimg"/>
+            <Col
+              lg={6}
+              className="text-center text-lg-start mt-lg-0 mt-sm-4 mt-3"
+              data-aos="fade-down-right"
+              data-aos-duration="1500"
+            >
+              <img
+                src={mission}
+                alt="mission"
+                width={375}
+                className="heroimg"
+              />
             </Col>
-            <Col lg={5}>
+            <Col lg={5} data-aos="fade-down-left" data-aos-duration="1500">
               <div className="ps-">
                 <h4 className="ff_lato fw-bold fs_4xl clr_white mb-0">
                   Our
