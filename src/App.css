@@ -557,6 +557,9 @@
 }
 /* accordion end */
 @media (max-width: 1200px) {
+  .hero_shadow::after{
+    display: none;
+  }
   .teamimg_width {
     width: 100% !important;
   }
@@ -592,6 +595,7 @@
     clip-path: circle(75%);
     pointer-events: all;
   }
+
   .accordion-item {
     padding: 24px;
     margin-top: 24px;
