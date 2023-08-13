@@ -4,7 +4,7 @@ import { Accordion, Container } from "react-bootstrap";
 const Faqs = () => {
   return (
     <>
-      <section className="py-xl-5 py-md-5 py-4 position-relative z-2 faqs_shadow shadow">
+      <section className="py-xl-5 py-md-5 py-4 position-relative z-2 faqs_shadow shadow" data-aos="zoom-out-left" data-aos-duration="1500">
         <Container className="py-xl-3">
           <h4 className="ff_lato fw-bold fs_4xl clr_brown text-center mb-lg-5 mb-3 pb-lg-2">
             FAQ

@@ -308,6 +308,13 @@
 .slick-slide {
   height: inherit !important;
   display: flex !important;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.slick-slider {
+  margin: 0 -30px;
 }
 .slick-slide > div {
   display: flex;
@@ -552,6 +559,13 @@
 @media (max-width: 1200px) {
   .teamimg_width {
     width: 100% !important;
+  }
+  .slick-slide {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .slick-slider {
+    margin: 0 -30px;
   }
 }
 @media (max-width: 992px) {
