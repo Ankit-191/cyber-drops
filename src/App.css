@@ -25,6 +25,9 @@
 .z_50 {
   z-index: 50;
 }
+.cursor_pointer{
+  cursor: pointer;
+}
 .animation {
   transform: 0deg;
   animation: img 4s linear infinite;

@@ -27,7 +27,7 @@ const Header = () => {
               alt="logo"
               width={80}
               height={80}
-              className="logo"
+              className="logo cursor_pointer"
             />
             <div onClick={showUl} className="z_30">
               <h3 className="d-lg-none clr_white fs_3xl">
